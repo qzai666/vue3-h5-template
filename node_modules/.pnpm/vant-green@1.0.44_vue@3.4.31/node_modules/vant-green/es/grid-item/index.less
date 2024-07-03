@@ -1,0 +1,130 @@
+@import '../style/var';
+
+.van-grid-item {
+  position: relative;
+  box-sizing: border-box;
+
+  &--square {
+    height: 0;
+  }
+
+  &__icon {
+    font-size: @grid-item-icon-size;
+  }
+
+  &__icon-wrapper {
+    position: relative;
+  }
+
+  &__text {
+    line-height: 1.5em;
+    color: @grid-item-text-color;
+    font-size: @grid-item-text-font-size;
+    font-weight: bold;
+    word-wrap: break-word;
+  }
+
+  &__icon + &__text {
+    margin-top: @padding-xs;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100%;
+    padding: @grid-item-content-vertical-padding
+      @grid-item-content-horizontal-padding;
+    background-color: @grid-item-content-background-color;
+
+    &--square {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+    }
+
+    &--center {
+      align-items: center;
+      justify-content: center;
+    }
+
+    &--surround {
+      &::after {
+        border-width: @border-width-base;
+      }
+    }
+
+    &--clickable:active {
+      background-color: @grid-item-content-active-color;
+    }
+
+    &--first-row {
+      padding-bottom: @grid-item-content-vertical-padding + 5px;
+      &::after {
+        top: -16px;
+      }
+    }
+
+    &--last-row {
+      padding-top: @grid-item-content-vertical-padding - 5px;
+      &::after {
+        bottom: -16px;
+      }
+    }
+  }
+
+  &__1 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  &__2 {
+    padding-top: @grid-item-2-content-vertical-padding;
+    padding-bottom: @grid-item-2-content-vertical-padding;
+    &.van-grid-item__content--first-row::after {
+      top: -8px;
+    }
+    &.van-grid-item__content--last-row::after {
+      bottom: -8px;
+    }
+  }
+
+  &__4 {
+    .van-grid-item__icon {
+      font-size: 40px;
+    }
+
+    .van-grid-item__text {
+      font-size: @font-size-md-1;
+    }
+
+    &--more {
+      padding-top: @grid-item-more-content-vertical-padding-top;
+      padding-bottom: @grid-item-more-content-vertical-padding-bottom;
+
+      .van-grid-item__icon {
+        font-size: 26px;
+      }
+
+      .van-grid-item__text {
+        margin-top: 6px;
+        font-size: @font-size-md;
+        font-weight: normal;
+      }
+
+      &.van-grid-item__content {
+        &--first-row {
+          padding-bottom: @grid-item-more-content-vertical-padding-bottom + 2px;
+        }
+        &--last-row {
+          padding-top: @grid-item-more-content-vertical-padding-top - 2px;
+        }
+      }
+
+      &.van-grid-item__content--last-row::after {
+        bottom: -13px;
+      }
+    }
+  }
+}

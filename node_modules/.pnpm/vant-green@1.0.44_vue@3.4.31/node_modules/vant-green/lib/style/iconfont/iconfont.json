@@ -1,0 +1,618 @@
+{
+  "id": "1514975",
+  "name": "移动端系统图标",
+  "font_family": "van-icon",
+  "css_prefix_text": "van-icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14157682",
+      "name": "向右展开",
+      "font_class": "right",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "12647557",
+      "name": "进入箭头",
+      "font_class": "arrow",
+      "unicode": "e696",
+      "unicode_decimal": 59030
+    },
+    {
+      "icon_id": "12567488",
+      "name": "擅长",
+      "font_class": "good-job",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "12522972",
+      "name": "异常",
+      "font_class": "fail",
+      "unicode": "e700",
+      "unicode_decimal": 59136
+    },
+    {
+      "icon_id": "11871947",
+      "name": "警告提示",
+      "font_class": "warning-o",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "11832762",
+      "name": "中医体质识别",
+      "font_class": "recognition",
+      "unicode": "e743",
+      "unicode_decimal": 59203
+    },
+    {
+      "icon_id": "11832764",
+      "name": "住院预缴金",
+      "font_class": "advance-payment",
+      "unicode": "e744",
+      "unicode_decimal": 59204
+    },
+    {
+      "icon_id": "11832794",
+      "name": "患教管理",
+      "font_class": "patient-management",
+      "unicode": "e746",
+      "unicode_decimal": 59206
+    },
+    {
+      "icon_id": "11832801",
+      "name": "医生介绍",
+      "font_class": "doctor-introduce",
+      "unicode": "e747",
+      "unicode_decimal": 59207
+    },
+    {
+      "icon_id": "11848611",
+      "name": "医院介绍",
+      "font_class": "hospital-introduce",
+      "unicode": "e748",
+      "unicode_decimal": 59208
+    },
+    {
+      "icon_id": "11848636",
+      "name": "意见反馈",
+      "font_class": "yijianfankui",
+      "unicode": "e749",
+      "unicode_decimal": 59209
+    },
+    {
+      "icon_id": "11848678",
+      "name": "疫苗接种",
+      "font_class": "vaccination",
+      "unicode": "e74a",
+      "unicode_decimal": 59210
+    },
+    {
+      "icon_id": "11848711",
+      "name": "手术查询",
+      "font_class": "surgery-inquiry",
+      "unicode": "e74b",
+      "unicode_decimal": 59211
+    },
+    {
+      "icon_id": "11848732",
+      "name": "专家目录",
+      "font_class": "menu",
+      "unicode": "e74c",
+      "unicode_decimal": 59212
+    },
+    {
+      "icon_id": "11848810",
+      "name": "智能导诊",
+      "font_class": "guidance",
+      "unicode": "e74d",
+      "unicode_decimal": 59213
+    },
+    {
+      "icon_id": "11848825",
+      "name": "就诊卡充值",
+      "font_class": "recharge",
+      "unicode": "e74e",
+      "unicode_decimal": 59214
+    },
+    {
+      "icon_id": "11848861",
+      "name": "就诊记录",
+      "font_class": "record",
+      "unicode": "e74f",
+      "unicode_decimal": 59215
+    },
+    {
+      "icon_id": "11848878",
+      "name": "化验单解读",
+      "font_class": "testsheet",
+      "unicode": "e750",
+      "unicode_decimal": 59216
+    },
+    {
+      "icon_id": "11849053",
+      "name": "健康小工具",
+      "font_class": "toolbox",
+      "unicode": "e751",
+      "unicode_decimal": 59217
+    },
+    {
+      "icon_id": "11849077",
+      "name": "病历复印",
+      "font_class": "copy",
+      "unicode": "e752",
+      "unicode_decimal": 59218
+    },
+    {
+      "icon_id": "11849093",
+      "name": "出院评价",
+      "font_class": "comment",
+      "unicode": "e753",
+      "unicode_decimal": 59219
+    },
+    {
+      "icon_id": "11849171",
+      "name": "出诊安排",
+      "font_class": "calendar",
+      "unicode": "e754",
+      "unicode_decimal": 59220
+    },
+    {
+      "icon_id": "11832248",
+      "name": "报告查询",
+      "font_class": "report-query",
+      "unicode": "e724",
+      "unicode_decimal": 59172
+    },
+    {
+      "icon_id": "11832315",
+      "name": "出院结算",
+      "font_class": "settlement",
+      "unicode": "e726",
+      "unicode_decimal": 59174
+    },
+    {
+      "icon_id": "11832334",
+      "name": "电子健康卡",
+      "font_class": "health-card",
+      "unicode": "e729",
+      "unicode_decimal": 59177
+    },
+    {
+      "icon_id": "11832336",
+      "name": "费用明细查询",
+      "font_class": "expense-details",
+      "unicode": "e72a",
+      "unicode_decimal": 59178
+    },
+    {
+      "icon_id": "11832344",
+      "name": "候诊叫号",
+      "font_class": "waiting-call",
+      "unicode": "e72b",
+      "unicode_decimal": 59179
+    },
+    {
+      "icon_id": "11832357",
+      "name": "急救库",
+      "font_class": "first-aid",
+      "unicode": "e72e",
+      "unicode_decimal": 59182
+    },
+    {
+      "icon_id": "11832368",
+      "name": "疾病库",
+      "font_class": "disease-bank",
+      "unicode": "e72f",
+      "unicode_decimal": 59183
+    },
+    {
+      "icon_id": "11832575",
+      "name": "科室介绍",
+      "font_class": "department",
+      "unicode": "e734",
+      "unicode_decimal": 59188
+    },
+    {
+      "icon_id": "11832578",
+      "name": "门诊缴费",
+      "font_class": "outpatient-pay",
+      "unicode": "e735",
+      "unicode_decimal": 59189
+    },
+    {
+      "icon_id": "11832603",
+      "name": "就诊人管理",
+      "font_class": "visiting-person",
+      "unicode": "e737",
+      "unicode_decimal": 59191
+    },
+    {
+      "icon_id": "11832664",
+      "name": "内容发布",
+      "font_class": "release",
+      "unicode": "e738",
+      "unicode_decimal": 59192
+    },
+    {
+      "icon_id": "11832689",
+      "name": "药物库",
+      "font_class": "medicine",
+      "unicode": "e73a",
+      "unicode_decimal": 59194
+    },
+    {
+      "icon_id": "11832711",
+      "name": "医院地图导航",
+      "font_class": "hospital-map",
+      "unicode": "e73c",
+      "unicode_decimal": 59196
+    },
+    {
+      "icon_id": "11832723",
+      "name": "预约挂号",
+      "font_class": "registration",
+      "unicode": "e740",
+      "unicode_decimal": 59200
+    },
+    {
+      "icon_id": "11832739",
+      "name": "智慧住院",
+      "font_class": "smart-hospital",
+      "unicode": "e741",
+      "unicode_decimal": 59201
+    },
+    {
+      "icon_id": "11871925",
+      "name": "扫码",
+      "font_class": "scan",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "11871929",
+      "name": "通知",
+      "font_class": "volume",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    },
+    {
+      "icon_id": "11871933",
+      "name": "操作失败",
+      "font_class": "warning",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "11871934",
+      "name": "删除",
+      "font_class": "delete",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "11871941",
+      "name": "删除2",
+      "font_class": "delete2",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "11871943",
+      "name": "弹窗关闭",
+      "font_class": "close",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "11871951",
+      "name": "提示语音",
+      "font_class": "voice",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "11871952",
+      "name": "手指松开取消发送",
+      "font_class": "cancel",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "12552886",
+      "name": "不可见",
+      "font_class": "closed-eye-copy",
+      "unicode": "e756",
+      "unicode_decimal": 59222
+    },
+    {
+      "icon_id": "12552887",
+      "name": "可见",
+      "font_class": "browsing-history-copy",
+      "unicode": "e757",
+      "unicode_decimal": 59223
+    },
+    {
+      "icon_id": "1269460",
+      "name": "Feedback",
+      "font_class": "feedback",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "5858490",
+      "name": "修改",
+      "font_class": "edit",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "5914111",
+      "name": "星级",
+      "font_class": "star",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "8284784",
+      "name": "图文",
+      "font_class": "photo",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "8285007",
+      "name": "电话",
+      "font_class": "phone",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "8285161",
+      "name": "视频",
+      "font_class": "video",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "8285354",
+      "name": "主页",
+      "font_class": "wap-home",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "8285553",
+      "name": "主页-未选中",
+      "font_class": "wap-home-o",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "8285671",
+      "name": "就诊记录-未选中",
+      "font_class": "sign",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "8285896",
+      "name": "就诊记录-选中",
+      "font_class": "completed",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "8286036",
+      "name": "个人中心",
+      "font_class": "user-o",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "8286073",
+      "name": "个人中心-选中",
+      "font_class": "user",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "8286251",
+      "name": "视频播放",
+      "font_class": "play-circle-o",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "8287406",
+      "name": "更多",
+      "font_class": "more",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "8297236",
+      "name": "搜索",
+      "font_class": "search",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "8307045",
+      "name": "清除",
+      "font_class": "clear",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    },
+    {
+      "icon_id": "8307046",
+      "name": "可见",
+      "font_class": "browsing-history",
+      "unicode": "e6e2",
+      "unicode_decimal": 59106
+    },
+    {
+      "icon_id": "8307047",
+      "name": "不可见",
+      "font_class": "closed-eye",
+      "unicode": "e6e3",
+      "unicode_decimal": 59107
+    },
+    {
+      "icon_id": "8307055",
+      "name": "刷新",
+      "font_class": "replay",
+      "unicode": "e6e6",
+      "unicode_decimal": 59110
+    },
+    {
+      "icon_id": "8307066",
+      "name": "关闭",
+      "font_class": "cross",
+      "unicode": "e6e7",
+      "unicode_decimal": 59111
+    },
+    {
+      "icon_id": "8342967",
+      "name": "下拉",
+      "font_class": "arrow-down",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "8342993",
+      "name": "收起",
+      "font_class": "arrow-up",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "8343721",
+      "name": "时间",
+      "font_class": "clock",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "8346937",
+      "name": "添加",
+      "font_class": "add",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "8346939",
+      "name": "表情",
+      "font_class": "smile-o",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "8349823",
+      "name": "展开",
+      "font_class": "down",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "8349835",
+      "name": "收起",
+      "font_class": "up",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "8349942",
+      "name": "选择",
+      "font_class": "success",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "8373941",
+      "name": "提示",
+      "font_class": "info",
+      "unicode": "e6e8",
+      "unicode_decimal": 59112
+    },
+    {
+      "icon_id": "12552595",
+      "name": "选择-选中",
+      "font_class": "checked",
+      "unicode": "e755",
+      "unicode_decimal": 59221
+    },
+    {
+      "icon_id": "8373951",
+      "name": "语音",
+      "font_class": "music",
+      "unicode": "e6ea",
+      "unicode_decimal": 59114
+    },
+    {
+      "icon_id": "8373969",
+      "name": "挂断",
+      "font_class": "off-phone",
+      "unicode": "e6f0",
+      "unicode_decimal": 59120
+    },
+    {
+      "icon_id": "8373985",
+      "name": "摄像头",
+      "font_class": "photograph",
+      "unicode": "e6f1",
+      "unicode_decimal": 59121
+    },
+    {
+      "icon_id": "8373988",
+      "name": "视频",
+      "font_class": "vedio2",
+      "unicode": "e6f2",
+      "unicode_decimal": 59122
+    },
+    {
+      "icon_id": "8374005",
+      "name": "免提",
+      "font_class": "volume2",
+      "unicode": "e6f3",
+      "unicode_decimal": 59123
+    },
+    {
+      "icon_id": "8448653",
+      "name": "返回",
+      "font_class": "arrow-left",
+      "unicode": "e6f4",
+      "unicode_decimal": 59124
+    },
+    {
+      "icon_id": "8497103",
+      "name": "添加",
+      "font_class": "plus",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "11809861",
+      "name": "时间",
+      "font_class": "clock-o",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "11809863",
+      "name": "地址",
+      "font_class": "location-o",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "11809866",
+      "name": "查看互联网医院病历",
+      "font_class": "gem",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    }
+  ]
+}

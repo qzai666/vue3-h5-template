@@ -1,0 +1,34 @@
+@import '../style/var';
+
+.van-nodata {
+  position: relative;
+  top: @nodata-relative-top;
+  transform: translateY(-50%);
+  padding: @nodata-padding;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &__figure {
+    width: @nodata-figure-width;
+    height: @nodata-figure-height;
+  }
+
+  &__title {
+    margin-top: @nodata-title-margin-top;
+    font-size: @nodata-title-size;
+    color: @nodata-title-color;
+  }
+
+  &__tip {
+    margin-top: @nodata-tip-margin-top;
+    font-size: @nodata-tip-size;
+    color: @nodata-tip-color;
+  }
+
+  &__button {
+    margin-top: @nodata-button-margin-top;
+  }
+}

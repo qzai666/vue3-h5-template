@@ -1,0 +1,172 @@
+@import '../style/var';
+@import '../style/mixins/plus.less';
+
+.van-uploader {
+  position: relative;
+
+  &__wrapper {
+    margin-left: @uploader-padding;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; // to clip file-upload-button
+    cursor: pointer;
+    opacity: 0;
+
+    &-wrapper {
+      position: relative;
+    }
+  }
+
+  &__plus {
+    width: @upload-plus-size;
+    .plus-common(@upload-plus-size, 2px);
+  }
+
+  &__upload {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: @uploader-size;
+    height: @uploader-size;
+    margin: 0 @padding-xs @padding-xs 0;
+    background-color: @uploader-upload-background-color;
+    border: 1px solid @uploader-upload-border-color;
+
+    &-icon {
+      color: @uploader-icon-color;
+      font-size: @uploader-icon-size;
+    }
+
+    &-text {
+      margin-top: @padding-xs;
+      color: @uploader-text-color;
+      font-size: @uploader-text-font-size;
+    }
+  }
+
+  &__preview {
+    position: relative;
+    margin: 0 @padding-xs @padding-xs 0;
+
+    &-image {
+      display: block;
+      width: @uploader-size;
+      height: @uploader-size;
+    }
+
+    &-delete {
+      position: absolute;
+      top: -6px;
+      right: -6px;
+      width: @uploader-delete-icon-size;
+      height: @uploader-delete-icon-size;
+      line-height: 0.9;
+      background-color: @color-text-placeholder;
+      border-radius: 100%;
+      text-align: center;
+      color: @white;
+      .van-icon {
+        font-size: 8px;
+      }
+    }
+  }
+
+  &__file {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: @uploader-size;
+    height: @uploader-size;
+    background-color: @uploader-file-background-color;
+    position: relative;
+
+    &--fail {
+      background-image: image-set(
+        'http://mui.ucmed.cn/images/icon/photo@2x.png' 2x,
+        'http://mui.ucmed.cn/images/icon/photo@3x.png' 3x
+      );
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 40px;
+    }
+
+    &-icon {
+      color: @uploader-file-icon-color;
+      font-size: @uploader-file-icon-size;
+    }
+
+    &-name {
+      box-sizing: border-box;
+      width: 100%;
+      margin-top: @uploader-file-name-margin-top;
+      padding: @uploader-file-name-padding;
+      color: @uploader-file-name-text-color;
+      font-size: @uploader-file-name-font-size;
+      text-align: center;
+    }
+
+    &-status {
+      width: 100%;
+      height: 100%;
+      background-color: @overlay-background-color;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: @white;
+      line-height: 20px;
+      &-icon {
+        margin-bottom: 4px;
+        color: @white;
+      }
+    }
+  }
+
+  &__title {
+    margin-bottom: @padding-md-1;
+    padding: 11px @uploader-padding;
+    line-height: @uploader-title-line-height;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    color: @uploader-title-color;
+    font-size: @uploader-title-font-size;
+    word-break: break-all;
+    &-description {
+      margin-left: 8px;
+      color: @uploader-title-description-color;
+      font-size: @uploader-title-description-font-size;
+    }
+    &-right {
+      margin-left: 10px;
+      flex: 0 0 auto;
+      color: @uploader-title-description-color;
+      font-size: @uploader-title-description-font-size;
+    }
+  }
+  &--count {
+    color: @uploader-count-color;
+  }
+  &--max-count {
+    color: @uploader-max-count-color;
+  }
+
+  &__tip {
+    margin-top: 10px;
+    padding: 0 @uploader-padding;
+    color: @uploader-tip-color;
+    font-size: @uploader-tip-font-size;
+  }
+}

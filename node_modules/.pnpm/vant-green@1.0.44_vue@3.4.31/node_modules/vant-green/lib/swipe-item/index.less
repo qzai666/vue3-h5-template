@@ -1,0 +1,36 @@
+@import '../style/var';
+
+.van-swipe-item {
+  float: left;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &--default1 {
+    background-image: image-set(
+      'http://mui.ucmed.cn/images/default/swipe@2x.png' 2x,
+      'http://mui.ucmed.cn/images/default/swipe@3x.png' 3x
+    );
+  }
+
+  &--default2 {
+    background-image: image-set(
+      'http://mui.ucmed.cn/images/default/swipe1@2x.png' 2x,
+      'http://mui.ucmed.cn/images/default/swipe1@3x.png' 3x
+    );
+  }
+
+  &--single {
+    margin: 0 3.75vw;
+    width: 92.5vw !important;
+    border-radius: 6px;
+  }
+
+  &--card {
+    margin: 0 -6px;
+    width: calc(100vw - 13.8vw) !important;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,119 @@
+@import '../style/var';
+@import '../style/mixins/hairline';
+
+.van-doctor-card {
+  display: flex;
+  padding: 14px;
+  background-color: @white;
+  position: relative;
+  &:not(:last-child)::after {
+    .hairline-bottom(@padding-md);
+  }
+
+  &__avatar {
+    margin-right: 14px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  &__online-tag {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 22px;
+    height: 11px;
+    border-radius: 4px 0 4px 0;
+    background-image: linear-gradient(116deg, #e8e8e8 3%, #dfdfdf 95%);
+    color: #8b8b8b;
+    &--online {
+      background-image: linear-gradient(113deg, #39cc72 5%, #17b464 93%);
+      color: #fff;
+    }
+  }
+
+  &__online-text {
+    font-size: 12px;
+    transform: scale(0.6);
+    white-space: nowrap;
+  }
+
+  &__wrapper {
+    flex: 1;
+  }
+
+  &__name {
+    margin-right: 10px;
+    // line-height: 22px;
+    line-height: 1.5;
+    font-size: 16px;
+    color: @color-text-primary;
+    font-weight: bold;
+  }
+
+  &__title {
+    font-size: @font-size-md;
+    color: @color-text-regular;
+  }
+
+  &__unit {
+    margin-top: 6px;
+  }
+
+  &__level-tag {
+    margin-right: 6px;
+  }
+
+  &__hospital {
+    margin-right: 10px;
+  }
+
+  &__hospital,
+  &__department {
+    // line-height: 20px;
+    line-height: 1.5;
+    font-size: @font-size-md;
+    color: @color-text-regular;
+  }
+
+  &__skill {
+    margin-top: 6px;
+    // line-height: 20px;
+    line-height: 1.5;
+    font-size: @font-size-md;
+    color: @color-text-secondary;
+  }
+
+  &__skill--tag {
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__skill-tag {
+    margin: 4px 5px 0;
+  }
+
+  &__description {
+    margin-top: 6px;
+    // line-height: 16px;
+    line-height: 1.5;
+    font-size: 11px;
+    color: @color-text-secondary;
+  }
+
+  &__gap {
+    margin: 0 5px;
+  }
+
+  &__footer {
+    font-size: 13px;
+    color: #999999;
+  }
+
+  &__consult-num {
+    margin: 0 4px;
+    font-size: @font-size-md-1;
+    color: @color-warning;
+  }
+}

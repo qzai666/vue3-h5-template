@@ -1,0 +1,78 @@
+@import '../style/var';
+
+.van-piccode-dialog {
+  &__wrapper {
+    position: fixed;
+    width: 80%;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+    border-radius: 8px;
+    background: @white;
+    padding: 24px 20px 40px;
+  }
+
+  &__close-icon {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: @dialog-close-size;
+    color: @color-text-secondary;
+  }
+
+  &__title {
+    padding: 0 10px;
+    line-height: 22px;
+    text-align: center;
+    font-size: @font-size-lg;
+    font-weight: bold;
+  }
+
+  &__body {
+    position: relative;
+    padding-top: 40px;
+  }
+
+  &__error-info {
+    position: absolute;
+    top: 12px;
+    width: 100%;
+    text-align: center;
+    font-size: @font-size-md;
+    color: @color-danger;
+  }
+
+  &__code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__pic {
+    width: 190px;
+    height: 58px;
+  }
+
+  &__icon {
+    width: 58px;
+    height: 58px;
+    background-color: rgba(@line-color, 0.7);
+    line-height: 58px;
+    text-align: center;
+  }
+
+  .van-password-input {
+    margin: 24px 0 0;
+    .cursor-color {
+      border: 1px solid @color-primary !important;
+    }
+    &__security {
+      li {
+        background-color: @background-color;
+        border: 1px solid @line-color;
+        border-radius: 4px;
+        height: 54px;
+      }
+    }
+  }
+}

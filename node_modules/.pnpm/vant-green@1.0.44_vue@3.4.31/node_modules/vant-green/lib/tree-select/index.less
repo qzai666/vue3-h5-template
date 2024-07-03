@@ -1,0 +1,98 @@
+@import '../style/var';
+
+.van-tree-select {
+  position: relative;
+  display: flex;
+  font-size: @tree-select-font-size;
+  user-select: none;
+  &__nav {
+    flex: 1;
+    overflow-y: auto;
+    background-color: @tree-select-nav-background-color;
+    -webkit-overflow-scrolling: touch;
+
+    &-item {
+      padding: @tree-select-nav-item-padding;
+    }
+
+    .van-sidebar-item {
+      font-size: @tree-item-font-size;
+      display: flex;
+      &__add {
+        margin-left: 10px;
+        flex: 0 0 auto;
+        font-size: @tree-add-font-size;
+        color: @tree-add-color;
+      }
+      &--select {
+        border-color: @tree-item-select-color;
+        .van-sidebar-item__add {
+          color: @tree-item-select-color;
+        }
+      }
+      &:active {
+        background: @background-color;
+      }
+    }
+  }
+
+  &__content {
+    flex: 1.5;
+    overflow-y: auto;
+    background-color: @tree-select-content-background-color;
+    -webkit-overflow-scrolling: touch;
+    font-size: @font-size-lg;
+    &--active-color {
+      .van-tree-select__item--active {
+        .van-tree-select__text,
+        .van-tree-select__add {
+          color: @tree-select-item-active-color;
+        }
+      }
+    }
+  }
+
+  &__item {
+    margin-left: 12px;
+    padding: @padding-md-1 @padding-md @padding-md-1 @padding-base;
+    line-height: @tree-sider-text-line-height;
+    border-bottom: 0.5px solid @line-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    .van-icon {
+      margin-left: 8px;
+      color: @color-text-secondary;
+    }
+    &--disabled {
+      color: @tree-select-item-disabled-color;
+    }
+  }
+
+  &__add-wrap {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    .van-icon {
+      font-size: @font-size-md!important;
+    }
+  }
+  &__add {
+    margin-left: 10px;
+    font-size: @font-size-sm;
+    color: @color-text-secondary;
+  }
+  &__text {
+    word-break: break-all;
+    white-space: normal;
+    color: @color-text-primary;
+  }
+}
+.van-tree-select--border {
+  .van-tree-select__item {
+    border-bottom: 0;
+  }
+  .van-sidebar-item {
+    border-bottom: 0.5px solid @line-color;
+  }
+}
