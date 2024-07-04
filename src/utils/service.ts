@@ -1,6 +1,7 @@
 import axios from 'axios'
 import { showToast } from 'vant'
 import { useSystemStore } from '@/stores/system'
+
 const useSystem = useSystemStore()
 
 // 创建axios实例
@@ -42,18 +43,17 @@ service.interceptors.request.use(
 service.interceptors.response.use(
   (res: any) => {
     // 未设置状态码则默认成功状态
-    const code = res.data['code'] || 200
+    const code = res.data.code || 200
     // 获取错误信息
     if (code === 200) {
       return Promise.resolve(res.data.data)
-    } else {
-      console.log(res)
-      return Promise.reject(res.data)
     }
+    console.log(res)
+    return Promise.reject(res.data)
   },
   error => {
-    let { response, message } = error
-    let msg = response?.data?.message ? response.data.message : message
+    const { response, message } = error
+    const msg = response?.data?.message ? response.data.message : message
     showToast(msg)
     return Promise.reject(response?.data ? response.data : error)
   },

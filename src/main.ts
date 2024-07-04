@@ -3,11 +3,11 @@ import './assets/style/main.scss'
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
+import { Button, Toast, Field, Popover } from 'vant'
 import App from './App.vue'
 import router from './router'
 import i18n from './lang'
 
-import { Button, Toast, Field, Popover } from 'vant'
 
 const app = createApp(App)
 
