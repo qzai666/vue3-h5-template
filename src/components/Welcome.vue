@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { ref, reactive, toRefs } from 'vue'
+import { ref, reactive, toRefs, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useCounterStore } from '@/stores/counter';
 import { useSystemStore } from '@/stores/system';
+import * as apiHome from '@/api/home.js'
 
 const { locale } = useI18n()
 const useSystem = useSystemStore()
@@ -25,6 +26,12 @@ const changeLang = (lang: string) => {
     locale.value = lang
     useSystem.changeLang(lang)
 }
+const init =async()=>{
+await apiHome.getLayout()
+}
+onMounted(()=>{
+    init()
+})
 
 
 </script>
