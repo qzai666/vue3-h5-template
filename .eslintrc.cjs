@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
-    'eslint-config-airbnb-base',
     '@vue/typescript/recommended',
     'plugin:vue/vue3-recommended',
     'plugin:prettier/recommended',
