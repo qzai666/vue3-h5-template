@@ -3,7 +3,7 @@ import { ref, reactive, toRefs, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useCounterStore } from '@/stores/counter'
 import { useSystemStore } from '@/stores/system'
-import * as apiHome from '@/api/home.js'
+import * as apiHome from '@/api/home'
 
 const { locale } = useI18n()
 const useSystem = useSystemStore()
