@@ -11,7 +11,7 @@
         "@/*": ["./src/*"]
       },
       "resolveJsonModule": true,
-      "types": ["unplugin-icons/types/vue"],
+      "types": ["vite/client"],
       "strict": true,
       "noEmit": true,
       "esModuleInterop": true,

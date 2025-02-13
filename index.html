@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=0" />
     <title>Vite App</title>
   </head>
   <body>
@@ -23,8 +23,11 @@
             t = 360
           }
           n = t / e
-          i.content =
-            'width=' + e + ',initial-scale=' + n + ',maximum-scale=' + n + ',minimum-scale=' + n
+          i.content = 'width=' + e + ',initial-scale=' + n + ',maximum-scale=' + n + ',minimum-scale=' + n
+        }
+        // 针对PC端的处理
+        if (screen.width > 1080) {
+          i.content = 'width=device-width, initial-scale=1.0'
         }
       })()
     </script>

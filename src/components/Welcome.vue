@@ -35,7 +35,7 @@ onMounted(() => {
 
 <template>
   <div class="page p-[20px]">
-    <div class="h-[40px] w-full">
+    <div class="h-[40px] w-full bg-red-500">
       {{ $t('hello') }}
     </div>
     <div class="h-[40px] w-full">
